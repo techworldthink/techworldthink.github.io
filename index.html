@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>techworldthink.think</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&family=Marcellus&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .page {
+            width: 100%;
+            min-height: 100vh;
+            color: white;
+            text-align: center;
+            background: url("page_background.jpg");
+        }
+
+        .head {
+            margin: 0;
+            padding-top: 1em;
+            margin-bottom: .5em;
+            font-family: 'M PLUS 1p', sans-serif;
+            font-family: 'Marcellus', serif;
+        }
+
+        .brand-name {
+            font-family: cursive;
+            padding: 0;
+            margin: 0;
+            border-bottom: 1px solid rgb(185, 178, 178);
+            display: inline-block;
+        }
+
+        .date {
+            padding: 0;
+            margin: 0;
+            margin-top: .25em;
+        }
+        p{
+            padding: 10%;
+            text-align: justify;
+            line-height: 2em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides page fade">
+            <h1 class="head">What is Lorem Ipsum?</h1>
+            <h3 class="brand-name">techworldthink.think</h3>
+            <h6 class="date">12/03/2022</h6>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+            </p>
+        </div>
+
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
